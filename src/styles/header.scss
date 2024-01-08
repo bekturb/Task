@@ -1,0 +1,146 @@
+.header {
+  background: #2D82BE;
+  padding: 15px 0;
+
+  &__wrapper {
+    width: 100%;
+  }
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.catalog-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #0000001A;
+  border-radius: 20px;
+  cursor: pointer;
+
+  &__title{
+    margin-left: 10px;
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+  }
+}
+
+.search {
+  position: relative;
+  margin-left: 20px;
+
+  &__input {
+    width: 675px;
+    height: 40px;
+    border: #0000000D;
+    border-radius: 20px;
+    text-indent: 50px;
+    outline: none;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    color: #949494;
+  }
+
+  &__number {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    font-size: 13px;
+    color: #949494;
+    font-family: Roboto, sans-serif;
+  }
+}
+
+.nav__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    width: 1px;
+    height: 30px;
+    background: #FFFFFF33;
+  }
+
+  &__greating {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-size: 10px;
+  }
+
+  &__title {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+    font-size: 13px;
+  }
+
+  &__avatar {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}
+
+.basket {
+  margin-left: 20px;
+  
+  &__img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  &__pick {
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    font-family: Roboto, sans-serif;
+    font-size: 11px;
+    color: #FFFFFF;
+  }
+}
